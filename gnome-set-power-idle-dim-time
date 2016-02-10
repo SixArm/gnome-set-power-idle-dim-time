@@ -1,0 +1,21 @@
+#!/bin/bash
+#
+# Gnome UI:
+# shell script to set the power idle dim time in seconds.
+#
+# Syntax:
+#
+#     gnome-set-power-idle-dim-time [time in seconds]
+#
+# The time defaults to 600 seconds a.k.a. 10 minutes.
+#
+# Command: gnome-set-power-idle-dim-time
+# Version: 1.1.0
+# Created: 2012-09-17
+# Updated: 2015-01-25
+# License: GPL
+# Contact: Joel Parker Henderson (joel@joelparkerhenderson.com)
+##
+set -euf
+len=${1-600}
+gsettings set org.gnome.settings-daemon.plugins.power idle-dim-time $seconds
