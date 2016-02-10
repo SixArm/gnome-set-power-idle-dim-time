@@ -2,6 +2,6 @@
 
 Syntax:
 
-   gnome-set-power-idle-dim-time [time in seconds]
+    gnome-set-power-idle-dim-time [time in seconds]
 
 The time defaults to 600 seconds a.k.a. 10 minutes.
