@@ -1,4 +1,4 @@
-# Gnome UI:<br>shell script to set the power idle dim time in seconds
+# Gnome UI:<br>shell script to set the power idle dim time
 
 Syntax:
 
